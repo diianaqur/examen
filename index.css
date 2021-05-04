@@ -1,0 +1,35 @@
+body{
+    background-image: url(fondo.jpg);
+    font-size: 14pt;
+    font-family: 'arial';
+}
+h1{
+    text-align: center;
+}
+.hoja{
+    background-image: url(fondo-1.jpg);
+    padding: 30px;
+    margin: 50px;
+    box-shadow: 0px 0px 15px;
+}
+
+#presentacion{
+    text-align: center;
+    background: white;
+}
+
+#cabeza{
+    text-align: center;
+}
+
+img{
+    float: right;
+    width: 700px;
+    margin-right: 50px;
+    border: 1px solid black;
+    transition: all 0.8s;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
